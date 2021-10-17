@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-</html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-    </head>
     <body>
         <input type="text" id="inp">
-        <button id="bt" onclick="fetchtext();"></button>
+        <button id="bt" onclick="fetchtext();"> Нажми </button>
         <script>
             async function fetchtext(){
                 let Response = await fetch(document.getElementById("inp").value);
